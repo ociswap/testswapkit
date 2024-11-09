@@ -1,0 +1,22 @@
+{
+  "name": "testswapkit",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "./build.sh",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "^2.5.25",
+    "@sveltejs/vite-plugin-svelte": "^3.0.0",
+    "svelte": "^4.2.17",
+    "vite": "^5.0.0",
+    "vite-plugin-node-polyfills": "^0.22.0"
+  },
+  "dependencies": {
+    "@sveltejs/adapter-cloudflare": "^4.6.1",
+    "@swapkit/sdk": "^2.0.1"
+  }
+}
